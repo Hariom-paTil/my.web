@@ -1,0 +1,229 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: sans-serif;
+}
+
+.hd
+{
+        background: url('bg.jpg');
+        height: 98vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+}
+.navbar{
+    border: 2px solid white;
+}
+.hd .logo,
+.hd .navbar a{
+    color: black;
+}
+.hd .logo{
+    float: left;
+}
+.hd .navbar .list{
+
+    float: right;
+}
+.hd .navbar .list .nav-list{
+    
+    border-radius: 20px;
+    background-color: rgb(176, 225, 241);
+    display: inline-block;
+    border: 2px solid black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin: 35px;
+}
+.logo{
+    height: 100px;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+.name
+{
+
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 230px;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(57, 64, 71);
+    
+}
+.des{
+    text-align: center;
+    font-size: 13px;
+}
+.login
+{
+    border: 4px solid black;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+     margin-left: 710px;
+     border-radius: 30PX;
+     font-size: 25px;
+     background-color: white;
+}
+.div1 .about 
+{
+    
+    margin-left: 20px;
+    font-size: 35px;
+    color: rgb(16, 74, 93);
+    
+}
+.info{
+      margin-left: 20px;
+      letter-spacing: 2px;
+      font-size: 12px;
+}
+.hero{
+    font-size: 50;
+}
+.section1
+{
+    height: 90vh;
+    border: solid 5px white;
+    background-image: url('section1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+
+.pra 
+{
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.ps
+{
+    border: 2px dotted black;
+    font-size: 19px;
+    padding-right: 10px;
+    margin-right: 850px;
+    margin-left: 21px
+}
+.terms
+{
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.ps1{
+    border: 2px dotted black;
+    font-size: 19px;
+    padding-right: 10px;
+    margin-right: 850px;
+    margin-left: 21px
+}
+.pra-img
+{
+    height: 100px;
+    margin-left: 800px;
+}
+.footer
+{
+    background-color:#263238;
+    color:  white;
+    text-align: center;
+    height: 100px;
+}
+.links i{
+    margin: 15px;
+    color: white;
+}
+.form
+{
+    background-image: url('formback.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main
+{
+    border: solid 2px black;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    align-items: top;
+    background-image: url('loginback.jpg');
+    background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+.hiding
+{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+
+}
+.form1 label
+{
+    font-variant: initial;
+    font-size: 25px;
+    text-shadow: 10px;
+    font-weight: bold;
+    font-style: inherit;
+    text-align: center;
+    margin-left: 10px;
+    
+}
+.form1 input
+{
+    height: 35px;
+    align-items: center;
+    border: solid 2px black;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.button1
+{
+    color: red;
+    background: black;
+    border-radius: 30px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.button2{
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-left: 70px;
+    color: red;
+    background: black;
+    border-radius: 30px;
+    font-size: 16px;
+
+}
