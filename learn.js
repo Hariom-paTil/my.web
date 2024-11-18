@@ -129,7 +129,7 @@ console.log('----------forinloop----------')                 // important note:-
 
 }                             *///
                                              
-
+/*
 console.log('-----GAME TO PLAY ----')
 alert("5 LUCKY GUESS TO WIN GAME")
 for(let i=1;i<=5;i++) {
@@ -149,6 +149,102 @@ result=0;
 if(count==0)
 {
     alert("you loose the game");     
-}
- 
+}                
+    */
+   
+/*
+console.log(" Q string take name from ");
+let name =  prompt("enter the user name");
+ let newname= name.length;
+ let username="@"+ name +newname;
+ alert(username); */
 
+/*
+console.log('-------------------array-----------------');
+let sum=0;
+let arry=[10, 23, 78, 97, 45, 28];
+for(let i in arry)
+{
+    sum+=arry[i];
+}
+let result=0;
+result=sum/6;
+console.log(result);
+                           */
+
+
+
+/*
+console.log("array push pop splilt")
+let arry=[10,20,30,40,50,60];
+console.log(arry);
+arry.push(99);                               //add element at end
+console.log(arry);
+arry.pop();
+console.log(arry);
+arry.unshift(999);                          //add element at start of a arry
+console.log(arry);
+arry.shift();                              // del ele form a start
+console.log(arry);
+console.log(arry.slice(1,4));           // slice(start,end)
+console.log(arry.splice(3,0,44));       //IMP note:- splice(index,delete,adding);
+console.log(arry);                     */
+
+
+/*
+console.log("function an javascript");
+function adding(a,b)            //basic rule to write function
+{
+    console.log(a+b);
+}
+adding(10,20);
+
+let add=(a,b)=>{          //arrow function mostly used an javasc 
+    
+    return a+b;
+}
+add(30,20);  */
+
+/*
+console.log('function question');
+let check;
+check=prompt('enter the value to check');
+even(check);
+fact(check);
+prime(check);
+function even(a)
+{
+    if(a%2==0)
+    {
+        console.log("even");
+    }
+    else
+    {
+        console.log("odd");
+    }
+}
+function fact(b)
+{
+    let fact=1;
+    for(let i=1;i<=b;i++)
+    {
+        fact=fact*i;
+    }
+    console.log(fact);
+   
+}
+function prime(c){
+let count=0;
+        for(let i=1;i<=c;i++){
+            if(c%i==0)
+            {
+                count++;
+            }
+        }
+    if(count==2)
+    {
+        console.log("the given number is prime:+",c);
+    }
+    alert("all function found perfectly");
+}
+            */
