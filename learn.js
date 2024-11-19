@@ -248,3 +248,58 @@ let count=0;
     alert("all function found perfectly");
 }
             */
+
+/*
+console.log("-----------for each loop--------------");
+let arry=[1,2,3,4,5,6,7];
+arry.forEach(function multi(val,ind,ele){
+     let total=val*val;
+     console.log(`new arry form ${total} index=${ind} element of arry ${ele}`);
+     total=0;
+});   */
+
+
+/*
+let arry=["hariom","rahul","vikas","jayesh","tushar"]
+
+arry.forEach(function username(name,ind){
+    let creat="@"+name+name.length;
+    console.log("new user name of a user:-",creat," user id:- ",ind);
+});   */
+
+
+
+console.log('largest function calling program');
+let arry=[1,2,3,4,5,6,7,8];
+let sum=(a)=>{
+    if(a%2==0)
+    {
+        console.log('even',a);
+    }
+    else
+    {
+        console.log("odd",a);
+    }
+    square(a);
+}
+arry.forEach(function fact(val)
+{
+    let fact=1;
+         for(i=1;i<=val;i++)
+         {
+            fact=fact*i;
+         }
+         console.log("factorial:-",fact);
+         sum(fact);
+         fact=1;
+});
+function square(sq)
+{
+    let find=0;
+    find=sq*sq;
+    let get=find;
+    console.log("after the arry-\n",get);
+    get=0;
+}
+
+
