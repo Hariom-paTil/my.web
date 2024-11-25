@@ -12,4 +12,5 @@ document.querySelector('.wish').onclick = function(){
         document.querySelector('#summer').innerText =`your bags has ${bag} item`;
         }
     
-    
+    document.querySelector('#name').innerText = "hariom";
+        

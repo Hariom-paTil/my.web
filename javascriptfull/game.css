@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+}
+button{
+    border: 1px solid black;
+    padding: 15px 15px;
+    margin: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    animation-duration: 3ms;
+}

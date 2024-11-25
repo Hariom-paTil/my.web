@@ -1,0 +1,107 @@
+.switch{
+    border: 5px solid black;
+    border-radius: 8px;
+    padding: 10px 10px;
+    background-color: aqua;
+}
+
+.maindiv{
+   border: 1px solid rgb(94, 93, 93);
+   width: 200px;
+   height: 400px;
+}
+.buttonc{
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+}
+.button1{
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+}
+.button2{
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+} 
+.buttonp{
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+}
+.button3{
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+}
+.button4{
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+}
+.button-{
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+}
+.button5{
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+}.button6{
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+}
+.buttonM{
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+}
+.button7{
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+}
+.button8{
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+}
+.buttond{
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+}
+.buttone{
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+}
+.button9{
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+}
+.button0{
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+}
+.buttondot{
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+}
+
+.display{
+    margin: 10px;
+    width: 84%;
+    font-size: 28px;
+}
+.buttondiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
