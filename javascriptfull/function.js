@@ -2,21 +2,31 @@ let computer_choice;
 let user_choice;
 let random;
 let choice;
+const wintable={
+      
+    userwin: 0,
+    computer: 0,
+    same:  0,
+};
 document.querySelector('.stone').onclick =function(){
     user_choice= "stone";
     choice=randomnumber();
     if(choice==="paper")
     {
         document.querySelector('.info').innerText = `COMPUTER WIN`;
+        wintable.computer++;
     }
     else if(choice==="stone")
     {
         document.querySelector('.info').innerText = `SAME-CHOICE`;
+        wintable.same++;
     }
     else
     {
         document.querySelector('.info').innerText = `USER WIN THE GAME`;
+        wintable.userwin++;
     }
+    winrate();
 }
 document.querySelector('.paper').onclick =function(){
     user_choice= "paper";
@@ -24,15 +34,19 @@ document.querySelector('.paper').onclick =function(){
     if(choice==="paper")
     {
         document.querySelector('.info').innerText = `SAME-CHOICE`;
+        wintable.same++;
     }
     else if(choice==="stone")
     {
         document.querySelector('.info').innerText = `COMPUTER WIN`;
+        wintable.computer++;
     }
     else
     {
         document.querySelector('.info').innerText = `USER WIN`;
+        wintable.userwin++;
     }
+    winrate();
 }
 document.querySelector('.scissor').onclick =function(){
     user_choice= "scissor";
@@ -40,15 +54,19 @@ document.querySelector('.scissor').onclick =function(){
     if(computer_choice==="scissor")
     {
         document.querySelector('.info').innerText = `SAME-CHOICE`;
+        wintable.same++;
     }
     else if(computer_choice==="stone")
     {
         document.querySelector('.info').innerText = `COMPUTER WIN`;
+        wintable.computer++;
     }
     else
     {
         document.querySelector('.info').innerText = `USER WIN`;
+        wintable.userwin++;
     }
+    winrate();
 }
 
 function randomnumber(){
@@ -66,5 +84,7 @@ function randomnumber(){
        return computer_choice ="scissor";
     }
 }
-
+function winrate(){
+    document.querySelector('.printresult').innerText=` user:-${wintable.userwin} computer:-${wintable.computer} same:-${wintable.same}`;
+}
 
