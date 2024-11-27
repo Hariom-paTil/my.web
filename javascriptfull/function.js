@@ -2,12 +2,27 @@ let computer_choice;
 let user_choice;
 let random;
 let choice;
-const wintable={
-      
-    userwin: 0,
-    computer: 0,
-    same:  0,
-};
+let wintable;
+
+document.querySelector('.reset').onclick=function(){
+    localStorage.clear();
+    wintable={
+        userwin:0,
+        computer: 0,
+        same: 0
+    };
+    winrate();
+}
+let stringwintable = localStorage.getItem('wintable');
+if (stringwintable) {
+    wintable = JSON.parse(stringwintable);  
+} else {
+    wintable = {  
+        userwin: 0,
+        computer: 0,
+        same: 0
+    };
+}
 document.querySelector('.stone').onclick =function(){
     user_choice= "stone";
     choice=randomnumber();
@@ -27,6 +42,7 @@ document.querySelector('.stone').onclick =function(){
         wintable.userwin++;
     }
     winrate();
+    
 }
 document.querySelector('.paper').onclick =function(){
     user_choice= "paper";
@@ -46,7 +62,8 @@ document.querySelector('.paper').onclick =function(){
         document.querySelector('.info').innerText = `USER WIN`;
         wintable.userwin++;
     }
-    winrate();
+    winrate()
+   
 }
 document.querySelector('.scissor').onclick =function(){
     user_choice= "scissor";
@@ -67,6 +84,7 @@ document.querySelector('.scissor').onclick =function(){
         wintable.userwin++;
     }
     winrate();
+    
 }
 
 function randomnumber(){
@@ -86,5 +104,6 @@ function randomnumber(){
 }
 function winrate(){
     document.querySelector('.printresult').innerText=` user:-${wintable.userwin} computer:-${wintable.computer} same:-${wintable.same}`;
+    localStorage.setItem('wintable',JSON.stringify(wintable));
 }
 
