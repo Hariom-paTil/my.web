@@ -1,0 +1,45 @@
+.heading{
+    text-align: center;
+}
+.centerdiv{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.listvalue{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.input_value{
+    font-size: 25px;
+    margin-right: 25px;
+    border: solid 3px black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+.input_time{
+    margin-right: 25px;
+    border: solid 3px black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.add{
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    background-color:palegreen;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    background-color:palegreen;
+}
+
